@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['version',['version',['../version_8cpp.html#ac3a29640c3dadfe882faed565ee376ec',1,'version():&#160;version.cpp'],['../version_8h.html#ac3a29640c3dadfe882faed565ee376ec',1,'version():&#160;version.cpp']]]
+  ['searchwindow',['SearchWindow',['../classSearchWindow.html#a7f973f32be165bca204e2bf6076f7de2',1,'SearchWindow']]]
 ];

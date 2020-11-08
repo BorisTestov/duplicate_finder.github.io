@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['searchwindow',['SearchWindow',['../classSearchWindow.html',1,'']]]
+  ['duplicatefinder',['DuplicateFinder',['../classDuplicateFinder.html',1,'']]]
 ];

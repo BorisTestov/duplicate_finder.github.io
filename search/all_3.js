@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['version',['version',['../version_8cpp.html#ac3a29640c3dadfe882faed565ee376ec',1,'version():&#160;version.cpp'],['../version_8h.html#ac3a29640c3dadfe882faed565ee376ec',1,'version():&#160;version.cpp']]],
-  ['version_2ecpp',['version.cpp',['../version_8cpp.html',1,'']]],
-  ['version_2eh',['version.h',['../version_8h.html',1,'']]]
+  ['searchwindow',['SearchWindow',['../classSearchWindow.html',1,'SearchWindow'],['../classSearchWindow.html#a7f973f32be165bca204e2bf6076f7de2',1,'SearchWindow::SearchWindow()']]],
+  ['searchwindow_2ecpp',['searchwindow.cpp',['../searchwindow_8cpp.html',1,'']]],
+  ['searchwindow_2eh',['searchwindow.h',['../searchwindow_8h.html',1,'']]]
 ];
