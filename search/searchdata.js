@@ -1,24 +1,27 @@
 var indexSectionsWithContent =
 {
-  0: "mpv",
-  1: "mv",
-  2: "mv",
-  3: "p"
+  0: "mpsv",
+  1: "s",
+  2: "msv",
+  3: "msv",
+  4: "p"
 };
 
 var indexSectionNames =
 {
   0: "all",
-  1: "files",
-  2: "functions",
-  3: "defines"
+  1: "classes",
+  2: "files",
+  3: "functions",
+  4: "defines"
 };
 
 var indexSectionLabels =
 {
   0: "All",
-  1: "Files",
-  2: "Functions",
-  3: "Macros"
+  1: "Classes",
+  2: "Files",
+  3: "Functions",
+  4: "Macros"
 };
 
