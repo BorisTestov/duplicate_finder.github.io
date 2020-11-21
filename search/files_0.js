@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['duplicate_5ffinder_2ecpp',['duplicate_finder.cpp',['../duplicate__finder_8cpp.html',1,'']]],
-  ['duplicate_5ffinder_2eh',['duplicate_finder.h',['../duplicate__finder_8h.html',1,'']]]
+  ['common_2ecpp',['common.cpp',['../common_8cpp.html',1,'']]],
+  ['common_2eh',['common.h',['../common_8h.html',1,'']]]
 ];
