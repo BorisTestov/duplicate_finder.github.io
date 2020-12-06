@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['hashedfile',['HashedFile',['../classHashedFile.html',1,'']]],
-  ['hashnode',['HashNode',['../structHashNode.html',1,'']]]
+  ['resultwindow',['ResultWindow',['../classResultWindow.html',1,'']]]
 ];

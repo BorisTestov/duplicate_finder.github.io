@@ -75,10 +75,11 @@ $(function() {
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aae943c51bdb2bd2e527d7a5495d71f31"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDuplicateFinder.html#aae943c51bdb2bd2e527d7a5495d71f31">DuplicateFinder</a> ()=delete</td></tr>
 <tr class="separator:aae943c51bdb2bd2e527d7a5495d71f31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28dfd48501256401110d1558a5020db4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDuplicateFinder.html#a28dfd48501256401110d1558a5020db4">DuplicateFinder</a> (bool searchByHash, bool searchByMeta, std::string hashType, size_t depth, unsigned int minSize, const QStringList &amp;includeDirectories, const QStringList &amp;excludeDirectories, const QStringList &amp;includeMasks, const QStringList &amp;excludeMasks)</td></tr>
-<tr class="separator:a28dfd48501256401110d1558a5020db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70aaed9724f69c5f23812bfbc6b2a1b8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDuplicateFinder.html#a70aaed9724f69c5f23812bfbc6b2a1b8">DuplicateFinder</a> (bool searchByHash, bool searchByMeta, QCryptographicHash::Algorithm hash_method, size_t depth, unsigned int minSize, const QStringList &amp;includeDirectories, const QStringList &amp;excludeDirectories, const QStringList &amp;includeMasks, const QStringList &amp;excludeMasks)</td></tr>
+<tr class="memdesc:a70aaed9724f69c5f23812bfbc6b2a1b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор класса для поиска файлов-дубликатов  <a href="#a70aaed9724f69c5f23812bfbc6b2a1b8">More...</a><br /></td></tr>
+<tr class="separator:a70aaed9724f69c5f23812bfbc6b2a1b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcf0fb9d8cb47d610668d6c3ca042921"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::string, std::unordered_set&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDuplicateFinder.html#abcf0fb9d8cb47d610668d6c3ca042921">Find</a> ()</td></tr>
-<tr class="memdesc:abcf0fb9d8cb47d610668d6c3ca042921"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find duplicate files.  <a href="#abcf0fb9d8cb47d610668d6c3ca042921">More...</a><br /></td></tr>
+<tr class="memdesc:abcf0fb9d8cb47d610668d6c3ca042921"><td class="mdescLeft">&#160;</td><td class="mdescRight">Найти файлы-дубликаты  <a href="#abcf0fb9d8cb47d610668d6c3ca042921">More...</a><br /></td></tr>
 <tr class="separator:abcf0fb9d8cb47d610668d6c3ca042921"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -107,8 +108,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a28dfd48501256401110d1558a5020db4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28dfd48501256401110d1558a5020db4">&#9670;&nbsp;</a></span>DuplicateFinder() <span class="overload">[2/2]</span></h2>
+<a id="a70aaed9724f69c5f23812bfbc6b2a1b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70aaed9724f69c5f23812bfbc6b2a1b8">&#9670;&nbsp;</a></span>DuplicateFinder() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -128,8 +129,8 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>hashType</em>, </td>
+          <td class="paramtype">QCryptographicHash::Algorithm&#160;</td>
+          <td class="paramname"><em>hash_method</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -175,6 +176,22 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Конструктор класса для поиска файлов-дубликатов </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">searchByHash</td><td>- Поиск по хешу. Файл дубликат, если совпадают хеши </td></tr>
+    <tr><td class="paramname">searchByMeta</td><td>- Поиск по метаданным (имя и размер). Файл дубликат, если совпадают имя и размер </td></tr>
+    <tr><td class="paramname">hash_method</td><td>- метод хеширования </td></tr>
+    <tr><td class="paramname">depth</td><td>- глубина сканироания директорий </td></tr>
+    <tr><td class="paramname">minSize</td><td>- минимальный размер сканируемого файла, в байтах </td></tr>
+    <tr><td class="paramname">includeDirectories</td><td>- директории для сканирования </td></tr>
+    <tr><td class="paramname">excludeDirectories</td><td>- директории, исключенные из сканирования </td></tr>
+    <tr><td class="paramname">includeMasks</td><td>- маски, включенные в сканирование. Если не пустой список, то сканирует только то, что подходит под маску </td></tr>
+    <tr><td class="paramname">excludeMasks</td><td>- маски, исключенные из сканирования </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -193,8 +210,12 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Find duplicate files. </p>
-<dl class="section return"><dt>Returns</dt><dd>- map of duplicates: path to file and vector of duplicates </dd></dl>
+<p>Найти файлы-дубликаты </p>
+<dl class="section return"><dt>Returns</dt><dd>Список дубликатов в формате: [оригинал: набор дубликатов] </dd></dl>
+<p>scan directories and add files to multimap</p>
+<p>get keys of multimap - all different sizes of files</p>
+<p>create separate vector for each filesize then run scan process in parallel</p>
+<p>wait for all processes</p>
 
 </div>
 </div>

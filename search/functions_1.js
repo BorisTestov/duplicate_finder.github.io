@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['duplicatefinder',['DuplicateFinder',['../classDuplicateFinder.html#aae943c51bdb2bd2e527d7a5495d71f31',1,'DuplicateFinder::DuplicateFinder()=delete'],['../classDuplicateFinder.html#a28dfd48501256401110d1558a5020db4',1,'DuplicateFinder::DuplicateFinder(bool searchByHash, bool searchByMeta, std::string hashType, size_t depth, unsigned int minSize, const QStringList &amp;includeDirectories, const QStringList &amp;excludeDirectories, const QStringList &amp;includeMasks, const QStringList &amp;excludeMasks)']]]
+  ['equal',['Equal',['../classHashedFile.html#a8a6a95890a72d627f84b10ce36c6e880',1,'HashedFile']]]
 ];

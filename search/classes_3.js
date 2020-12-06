@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ihash',['IHash',['../classIHash.html',1,'']]]
+  ['searchwindow',['SearchWindow',['../classSearchWindow.html',1,'']]]
 ];

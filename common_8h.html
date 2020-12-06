@@ -74,6 +74,7 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &lt;QString&gt;</code><br />
 <code>#include &lt;QStringList&gt;</code><br />
+<code>#include &lt;boost/regex.hpp&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -88,7 +89,8 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="common_8h__dep__incl.png" border="0" usemap="#include_2common_8hdep" alt=""/></div>
 <map name="include_2common_8hdep" id="include_2common_8hdep">
-<area shape="rect" id="node2" href="common_8cpp.html" title="src/common.cpp" alt="" coords="12,80,141,107"/>
+<area shape="rect" id="node2" href="common_8cpp.html" title="src/common.cpp" alt="" coords="5,80,135,107"/>
+<area shape="rect" id="node3" href="duplicate__finder_8cpp.html" title="src/duplicate_finder.cpp" alt="" coords="159,80,333,107"/>
 </map>
 </div>
 </div>
@@ -102,8 +104,11 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a73e86a83bccb513c4ce62aad2d50b140"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecommon.html#a73e86a83bccb513c4ce62aad2d50b140">common::toVectorOfStrings</a> (QStringList list)</td></tr>
-<tr class="memdesc:a73e86a83bccb513c4ce62aad2d50b140"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert QStringList to vector of strings  <a href="namespacecommon.html#a73e86a83bccb513c4ce62aad2d50b140">More...</a><br /></td></tr>
+<tr class="memdesc:a73e86a83bccb513c4ce62aad2d50b140"><td class="mdescLeft">&#160;</td><td class="mdescRight">преобразовать QStringList в вектор строк  <a href="namespacecommon.html#a73e86a83bccb513c4ce62aad2d50b140">More...</a><br /></td></tr>
 <tr class="separator:a73e86a83bccb513c4ce62aad2d50b140"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25a9941d5b48d389b29580334bca6407"><td class="memItemLeft" align="right" valign="top">std::vector&lt; boost::regex &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecommon.html#a25a9941d5b48d389b29580334bca6407">common::toVectorOfRegex</a> (QStringList list)</td></tr>
+<tr class="memdesc:a25a9941d5b48d389b29580334bca6407"><td class="mdescLeft">&#160;</td><td class="mdescRight">преобразовать QStringList в вектор boost::regex.  <a href="namespacecommon.html#a25a9941d5b48d389b29580334bca6407">More...</a><br /></td></tr>
+<tr class="separator:a25a9941d5b48d389b29580334bca6407"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -71,10 +71,40 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a73e86a83bccb513c4ce62aad2d50b140"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecommon.html#a73e86a83bccb513c4ce62aad2d50b140">toVectorOfStrings</a> (QStringList list)</td></tr>
-<tr class="memdesc:a73e86a83bccb513c4ce62aad2d50b140"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert QStringList to vector of strings  <a href="#a73e86a83bccb513c4ce62aad2d50b140">More...</a><br /></td></tr>
+<tr class="memdesc:a73e86a83bccb513c4ce62aad2d50b140"><td class="mdescLeft">&#160;</td><td class="mdescRight">преобразовать QStringList в вектор строк  <a href="#a73e86a83bccb513c4ce62aad2d50b140">More...</a><br /></td></tr>
 <tr class="separator:a73e86a83bccb513c4ce62aad2d50b140"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25a9941d5b48d389b29580334bca6407"><td class="memItemLeft" align="right" valign="top">std::vector&lt; boost::regex &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecommon.html#a25a9941d5b48d389b29580334bca6407">toVectorOfRegex</a> (QStringList list)</td></tr>
+<tr class="memdesc:a25a9941d5b48d389b29580334bca6407"><td class="mdescLeft">&#160;</td><td class="mdescRight">преобразовать QStringList в вектор boost::regex.  <a href="#a25a9941d5b48d389b29580334bca6407">More...</a><br /></td></tr>
+<tr class="separator:a25a9941d5b48d389b29580334bca6407"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a25a9941d5b48d389b29580334bca6407"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25a9941d5b48d389b29580334bca6407">&#9670;&nbsp;</a></span>toVectorOfRegex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; boost::regex &gt; common::toVectorOfRegex </td>
+          <td>(</td>
+          <td class="paramtype">QStringList&#160;</td>
+          <td class="paramname"><em>list</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>преобразовать QStringList в вектор boost::regex. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">list</td><td>- qstringlist для преобразования </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>std::vector регексов </dd></dl>
+
+</div>
+</div>
 <a id="a73e86a83bccb513c4ce62aad2d50b140"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a73e86a83bccb513c4ce62aad2d50b140">&#9670;&nbsp;</a></span>toVectorOfStrings()</h2>
 
@@ -91,14 +121,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>convert QStringList to vector of strings </p>
+<p>преобразовать QStringList в вектор строк </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">list</td><td>- qstringlist to convert </td></tr>
+    <tr><td class="paramname">list</td><td>- qstringlist для преобразования </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>std::vector of strings </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>std::vector строк </dd></dl>
 
 </div>
 </div>

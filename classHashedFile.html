@@ -70,22 +70,36 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="hashed__file_8h_source.html">hashed_file.h</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for HashedFile:</div>
+<div class="dyncontent">
+<div class="center"><img src="classHashedFile__inherit__graph.png" border="0" usemap="#HashedFile_inherit__map" alt="Inheritance graph"/></div>
+<map name="HashedFile_inherit__map" id="HashedFile_inherit__map">
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for HashedFile:</div>
+<div class="dyncontent">
+<div class="center"><img src="classHashedFile__coll__graph.png" border="0" usemap="#HashedFile_coll__map" alt="Collaboration graph"/></div>
+<map name="HashedFile_coll__map" id="HashedFile_coll__map">
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa1c1cbca05eb00d5b8c7c0b29c8bb5f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashedFile.html#aa1c1cbca05eb00d5b8c7c0b29c8bb5f8">HashedFile</a> (boost::filesystem::path path, uintmax_t hash_blocksize, std::shared_ptr&lt; <a class="el" href="classIHash.html">IHash</a> &gt; hasher)</td></tr>
-<tr class="memdesc:aa1c1cbca05eb00d5b8c7c0b29c8bb5f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор класса <a class="el" href="classHashedFile.html">HashedFile</a>.  <a href="#aa1c1cbca05eb00d5b8c7c0b29c8bb5f8">More...</a><br /></td></tr>
-<tr class="separator:aa1c1cbca05eb00d5b8c7c0b29c8bb5f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63317beafd196e29a401c810b2fe3607"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashedFile.html#a63317beafd196e29a401c810b2fe3607">Equal</a> (<a class="el" href="classHashedFile.html">HashedFile</a> &amp;other)</td></tr>
-<tr class="memdesc:a63317beafd196e29a401c810b2fe3607"><td class="mdescLeft">&#160;</td><td class="mdescRight">Произвести сравнение двух файлов  <a href="#a63317beafd196e29a401c810b2fe3607">More...</a><br /></td></tr>
-<tr class="separator:a63317beafd196e29a401c810b2fe3607"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50152adafb1a0f6f58cd6aeacb4b0127"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashedFile.html#a50152adafb1a0f6f58cd6aeacb4b0127">HashedFile</a> (boost::filesystem::path path, QCryptographicHash::Algorithm hash_method)</td></tr>
+<tr class="memdesc:a50152adafb1a0f6f58cd6aeacb4b0127"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор класса <a class="el" href="classHashedFile.html">HashedFile</a>.  <a href="#a50152adafb1a0f6f58cd6aeacb4b0127">More...</a><br /></td></tr>
+<tr class="separator:a50152adafb1a0f6f58cd6aeacb4b0127"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a6a95890a72d627f84b10ce36c6e880"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashedFile.html#a8a6a95890a72d627f84b10ce36c6e880">Equal</a> (const QPointer&lt; <a class="el" href="classHashedFile.html">HashedFile</a> &gt; &amp;other)</td></tr>
+<tr class="memdesc:a8a6a95890a72d627f84b10ce36c6e880"><td class="mdescLeft">&#160;</td><td class="mdescRight">Произвести сравнение двух файлов  <a href="#a8a6a95890a72d627f84b10ce36c6e880">More...</a><br /></td></tr>
+<tr class="separator:a8a6a95890a72d627f84b10ce36c6e880"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0919e1b63db2b45c5696b0b4e0a9d95b"><td class="memItemLeft" align="right" valign="top">boost::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHashedFile.html#a0919e1b63db2b45c5696b0b4e0a9d95b">GetFilePath</a> () const</td></tr>
 <tr class="memdesc:a0919e1b63db2b45c5696b0b4e0a9d95b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает путь к файлу  <a href="#a0919e1b63db2b45c5696b0b4e0a9d95b">More...</a><br /></td></tr>
 <tr class="separator:a0919e1b63db2b45c5696b0b4e0a9d95b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa1c1cbca05eb00d5b8c7c0b29c8bb5f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1c1cbca05eb00d5b8c7c0b29c8bb5f8">&#9670;&nbsp;</a></span>HashedFile()</h2>
+<a id="a50152adafb1a0f6f58cd6aeacb4b0127"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50152adafb1a0f6f58cd6aeacb4b0127">&#9670;&nbsp;</a></span>HashedFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -99,14 +113,8 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uintmax_t&#160;</td>
-          <td class="paramname"><em>hash_blocksize</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classIHash.html">IHash</a> &gt;&#160;</td>
-          <td class="paramname"><em>hasher</em>&#160;</td>
+          <td class="paramtype">QCryptographicHash::Algorithm&#160;</td>
+          <td class="paramname"><em>hash_method</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -121,17 +129,15 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">path</td><td>- путь к файлу </td></tr>
     <tr><td class="paramname">hash_blocksize</td><td>- размер блока для хеширования, в байтах </td></tr>
-    <tr><td class="paramname">hasher</td><td>- тип используемого хешера. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="hash_8h.html">hash.h</a> </dd></dl>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a63317beafd196e29a401c810b2fe3607"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63317beafd196e29a401c810b2fe3607">&#9670;&nbsp;</a></span>Equal()</h2>
+<a id="a8a6a95890a72d627f84b10ce36c6e880"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a6a95890a72d627f84b10ce36c6e880">&#9670;&nbsp;</a></span>Equal()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139,7 +145,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">bool HashedFile::Equal </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classHashedFile.html">HashedFile</a> &amp;&#160;</td>
+          <td class="paramtype">const QPointer&lt; <a class="el" href="classHashedFile.html">HashedFile</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -149,7 +155,7 @@ Public Member Functions</h2></td></tr>
 <p>Произвести сравнение двух файлов </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">other</td><td>- Файл, с которым производится сравнение </td></tr>
+    <tr><td class="paramname">other</td><td>- Указатель на файл, с которым производится сравнение </td></tr>
   </table>
   </dd>
 </dl>

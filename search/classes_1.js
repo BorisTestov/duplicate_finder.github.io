@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['duplicatefinder',['DuplicateFinder',['../classDuplicateFinder.html',1,'']]]
+  ['hashedfile',['HashedFile',['../classHashedFile.html',1,'']]]
 ];
